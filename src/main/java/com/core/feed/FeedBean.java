@@ -29,4 +29,8 @@ public class FeedBean {
         
         return ytimgLink + link.split("v=")[1] + image;
     }
+    
+    public void someMethod(){
+        System.out.println("This is a method for Travis sample");
+    }
 }
