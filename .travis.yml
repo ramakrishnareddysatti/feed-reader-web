@@ -1,3 +1,11 @@
 language: java
 jdk:
   - oraclejdk8
+addons:
+  sonarqube:
+    organization: "jdev" # the key of the org you chose at step #3
+    token:
+      secure: eab46f68fd7fe7a9d31e665a1a23c4b0b30d0b64 # encrypted value of your token
+script:
+  # other script steps might be done before running the actual SonarQube analysis
+  - sonar-scanner
