@@ -7,4 +7,4 @@ addons:
     token:
         secure: ba44e78708e037340de91a0b0c26d1f8c9071a54 #Token 
 script:
-  - sonnar-scanner
+  - sonar-scanner
