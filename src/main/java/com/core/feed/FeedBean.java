@@ -32,5 +32,8 @@ public class FeedBean {
     
     public void someMethod(){
         System.out.println("This is a method for Travis sample");
+        
+        //This line is an error
+        Line with error sintax
     }
 }
